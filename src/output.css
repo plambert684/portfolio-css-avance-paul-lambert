@@ -241,6 +241,12 @@
   .border-collapse {
     border-collapse: collapse;
   }
+  .rotate-1 {
+    rotate: 1deg;
+  }
+  .rotate-\[360deg\] {
+    rotate: 360deg;
+  }
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
   }
@@ -444,6 +450,14 @@
     --tw-duration: 75ms;
     transition-duration: 75ms;
   }
+  .duration-\[0\.5s\] {
+    --tw-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .duration-\[1s\] {
+    --tw-duration: 1s;
+    transition-duration: 1s;
+  }
   .duration-\[2s\] {
     --tw-duration: 2s;
     transition-duration: 2s;
@@ -452,6 +466,20 @@
     &:hover {
       @media (hover: hover) {
         rotate: 360deg;
+      }
+    }
+  }
+  .hover\:rotate-\[720deg\] {
+    &:hover {
+      @media (hover: hover) {
+        rotate: 720deg;
+      }
+    }
+  }
+  .hover\:transform {
+    &:hover {
+      @media (hover: hover) {
+        transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
       }
     }
   }
