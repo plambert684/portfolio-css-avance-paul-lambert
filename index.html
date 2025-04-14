@@ -12,7 +12,7 @@
 
     <title>Paul Lambert - Portfolio</title>
 </head>
-<body class="bg-dark-gray">
+<body class="bg-dark-gray" id="home">
     <header class="flex flex-row justify-center items-center px-[120px] py-[15px] gap-[20px] 2xl:px-[250px]">
         <nav class="hidden sm:flex flex-row justify-between gap-[30px] items-center bg-cool-gray rounded-[20px] border-1 border-light-gray px-[40px] py-[10px] h-[46px]">
             <a href="#diplomes" class="text-white font-sfprodisplay text-[14px]">Diplômes</a>
@@ -24,7 +24,7 @@
             <a href="https://github.com/plambert684" target="_blank">
                 <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_90_2516)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5 0C22.2322 0 28.5 6.4259 28.5 14.3541C28.5 20.6947 24.4932 26.0735 18.9338 27.9733C18.224 28.1147 17.972 27.6665 17.972 27.2843C17.972 26.8111 17.9888 25.2655 17.9888 23.3447C17.9888 22.0063 17.5408 21.1328 17.0382 20.6876C20.156 20.332 23.432 19.1181 23.432 13.6049C23.432 12.0369 22.8888 10.7573 21.99 9.75215C22.1356 9.38955 22.6158 7.92953 21.8528 5.95273C21.8528 5.95273 20.6796 5.56811 18.007 7.42451C16.8884 7.10671 15.69 6.94681 14.5 6.94121C13.31 6.94681 12.113 7.10671 10.9958 7.42451C8.3204 5.56811 7.1444 5.95273 7.1444 5.95273C6.3842 7.92953 6.8644 9.38955 7.0086 9.75215C6.114 10.7573 5.5666 12.0369 5.5666 13.6049C5.5666 19.1041 8.8356 20.3366 11.945 20.6992C11.5446 21.0576 11.182 21.6899 11.056 22.6181C10.258 22.9849 8.2308 23.6197 6.982 21.4259C6.982 21.4259 6.2414 20.0467 4.8358 19.9459C4.8358 19.9459 3.4708 19.9278 4.7406 20.8182C4.7406 20.8182 5.6576 21.2592 6.2946 22.9182C6.2946 22.9182 7.1164 25.4801 11.0112 24.6121C11.0182 25.8119 11.0308 26.9427 11.0308 27.2843C11.0308 27.6637 10.7732 28.1077 10.0746 27.9747C4.511 26.0777 0.5 20.6961 0.5 14.3541C0.5 6.4259 6.7692 0 14.5 0Z" fill="black"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5 0C22.2322 0 28.5 6.4259 28.5 14.3541C28.5 20.6947 24.4932 26.0735 18.9338 27.9733C18.224 28.1147 17.972 27.6665 17.972 27.2843C17.972 26.8111 17.9888 25.2655 17.9888 23.3447C17.9888 22.0063 17.5408 21.1328 17.0382 20.6876C20.156 20.332 23.432 19.1181 23.432 13.6049C23.432 12.0369 22.8888 10.7573 21.99 9.75215C22.1356 9.38955 22.6158 7.92953 21.8528 5.95273C21.8528 5.95273 20.6796 5.56811 18.007 7.42451C16.8884 7.10671 15.69 6.94681 14.5 6.94121C13.31 6.94681 12.113 7.10671 10.9958 7.42451C8.3204 5.56811 7.1444 5.95273 7.1444 5.95273C6.3842 7.92953 6.8644 9.38955 7.0086 9.75215C6.114 10.7573 5.5666 12.0369 5.5666 13.6049C5.5666 19.1041 8.8356 20.3366 11.945 20.6992C11.5446 21.0576 11.182 21.6899 11.056 22.6181C10.258 22.9849 8.2308 23.6197 6.982 21.4259C6.982 21.4259 6.2414 20.0467 4.8358 19.9459C4.8358 19.9459 3.4708 19.9278 4.7406 20.8182C4.7406 20.8182 5.6576 21.2592 6.2946 22.9182C6.2946 22.9182 7.1164 25.4801 11.0112 24.6121C11.0182 25.8119 11.0308 26.9427 11.0308 27.2843C11.0308 27.6637 10.7732 28.1077 10.0746 27.9747C4.511 26.0777 0.5 20.6961 0.5 14.3541C0.5 6.4259 6.7692 0 14.5 0Z" fill="white"/>
                     </g>
                     <defs>
                         <clipPath id="clip0_90_2516">
@@ -58,26 +58,20 @@
         <section class="sm:p-[120px] 2xl:px-[250px] 2xl:py-[100px] px-[10px] py-[40px]">
             <div class="flex flex-col gap-[30px] items-center sm:items-start">
                 <img class="w-[138px] h-[138px] transition-transform duration-[2s] hover:rotate-[360deg]" src="src/img/plambert.png" alt="Paul Lambert">
-                <h1 class="text-white font-sfprodisplay text-[42px] leading-[50px] font-bold sm:text-[88px] sm:leading-[80px]" data-aos="fade-right" data-aos-duration="750">PAUL LAMBERT<br><span class="font-thin">WEB DESIGNER</span></h1>
+                <h1 class="text-white font-sfprodisplay text-center sm:text-left text-[42px] leading-[50px] font-bold sm:text-[88px] sm:leading-[80px]" data-aos="fade-right" data-aos-duration="750">PAUL LAMBERT<br><span class="font-thin">FULL-STACK DEVELOPER</span></h1>
                 <div class="flex flex-row gap-[10px]" data-aos="fade-right" data-aos-duration="1000">
-                    <a href="https://open.spotify.com/playlist/4wIoFvSYLG9KXiNoMgv20e?si=drz78JMVSkCPYzYUQzxXpA" target="_blank" >
-                        <button class="flex flex-row gap-[10px] rounded-[20px] px-[12px] py-[10px] bg-cool-gray border-1 border-light-gray text-white transition duration-75 hover:bg-dark-gray sm:px-[20px] sm:py-[15px]">                            <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_31_5)">
-                                    <path d="M7.33333 12.4166V7.83331" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M7.38834 4.23727C7.48108 3.91929 7.68548 3.64548 7.96397 3.46617C8.24245 3.28686 8.57631 3.2141 8.90415 3.26127C9.232 3.30844 9.5318 3.47237 9.74844 3.72292C9.96508 3.97347 10.084 4.2938 10.0833 4.62502V6.91668M10.0833 10.5833V11.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M11.0578 7.8929C11.2633 7.83031 11.4806 7.81675 11.6923 7.85331C11.904 7.88986 12.1042 7.97552 12.2768 8.10341C12.4495 8.2313 12.5897 8.39786 12.6864 8.58974C12.783 8.78162 12.8333 8.99347 12.8333 9.20831V9.66665" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M12.8883 9.74184C12.981 9.42424 13.185 9.1507 13.463 8.97137C13.741 8.79204 14.0744 8.71896 14.4019 8.76552C14.7294 8.81209 15.0292 8.97519 15.2462 9.22489C15.4632 9.4746 15.5829 9.79418 15.5833 10.125V11.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M15.5833 11.0417C15.5833 10.677 15.7282 10.3273 15.9861 10.0694C16.2439 9.81155 16.5937 9.66669 16.9583 9.66669C17.323 9.66669 17.6727 9.81155 17.9306 10.0694C18.1885 10.3273 18.3333 10.677 18.3333 11.0417V15.1667M17.5267 18.0349C17.0353 18.8389 16.3456 19.5031 15.5238 19.964C14.702 20.4248 13.7755 20.6668 12.8333 20.6667H11H11.1907C10.2798 20.6668 9.38317 20.4408 8.58127 20.0088C7.77937 19.5768 7.09731 18.9524 6.59633 18.1917L6.41667 17.9167C6.13067 17.4776 5.12692 15.7277 3.4045 12.666C3.22891 12.3539 3.18201 11.9856 3.27377 11.6395C3.36552 11.2933 3.5887 10.9967 3.89583 10.8125C4.22297 10.6162 4.60632 10.5349 4.98498 10.5814C5.36364 10.6279 5.71591 10.7996 5.98583 11.0692L7.33333 12.4167" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M2.75 3.25L19.25 19.75" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_31_5">
-                                        <rect width="22" height="22" fill="white" transform="translate(0 0.5)"/>
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                    <a href="https://x.com/KiDCuDi/status/1911229681594147070" target="_blank" >
+                        <button class="flex flex-row gap-[10px] rounded-[20px] px-[12px] py-[10px] bg-cool-gray border-1 border-light-gray text-white transition duration-75 hover:bg-dark-gray sm:px-[20px] sm:py-[15px]">
 
-                            <span>Ne pas cliquer</span>
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-music"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M9 17v-13h10v13" /><path d="M9 8h10" /></svg>
+
+                            <span>S'ambiencer</span>
+                        </button>
+                    </a>
+
+                    <a href="mailto:paul-lambert@plambert.fr">
+                        <button class="flex flex-row gap-[10px] rounded-[20px] px-[12px] py-[10px] border-1 border-light-gray text-white transition duration-75 hover:bg-cool-gray sm:px-[20px] sm:py-[15px]">
+                            <span>Demander un devis</span>
                         </button>
                     </a>
                 </div>
@@ -159,7 +153,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-row gap-[10px]" onclick="showMore()" id="showMore">
+            <div class="flex flex-row gap-[10px] cursor-pointer" onclick="showMore()" id="showMore">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_28_82)">
                         <path d="M16 6.66675V25.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -335,11 +329,11 @@
             <div class="flex flex-col gap-[15px] sm:gap-[30px] w-full">
                 <span class="font-sfprodisplay text-white text-[28px] sm:text-[32px]">Lien rapide</span>
                 <div class="flex flex-col gap-[10px]">
-                    <a href="#" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Accueil</a>
-                    <a href="#" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Diplômes</a>
-                    <a href="#" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Expériences professionnelles</a>
-                    <a href="#" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Projets réalisés</a>
-                    <a href="#" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Compétences</a>
+                    <a href="#home" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Accueil</a>
+                    <a href="#diplomes" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Diplômes</a>
+                    <a href="#experiences" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Expériences professionnelles</a>
+                    <a href="#projets" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Projets réalisés</a>
+                    <a href="#competences" class="font-sfprodisplay text-white text-[14px] sm:text-[18px]">Compétences</a>
                 </div>
             </div>
 
@@ -410,9 +404,8 @@
     });
 
     function showMore() {
-        const experiencesContainer = document.querySelector('#experiences .flex.flex-col.gap-\\[30px\\]');
+        const experiencesContainer = document.querySelector('#experiences .flex.flex-col.gap-\\[15px\\]');
 
-        // Nouvelles expériences à ajouter
         const newExperiences = [
             {
                 company: 'SCALEWAY',
@@ -434,20 +427,19 @@
             }
         ];
 
-        // Générer et insérer les nouvelles expériences
         newExperiences.forEach(exp => {
             const experienceDiv = document.createElement('div');
-            experienceDiv.className = 'flex flex-row items-center gap-[30px] border-light-gray border-1 rounded-[20px] bg-cool-gray px-[40px] py-[30px]';
+            experienceDiv.className = 'flex flex-col sm:flex-row sm:items-center gap-[15px] sm:gap-[30px] border-light-gray border-1 rounded-[20px] bg-cool-gray p-[20px] sm:px-[40px] sm:py-[30px]';
             experienceDiv.setAttribute('data-aos', 'fade-right');
             experienceDiv.setAttribute('data-aos-duration', '500');
 
             experienceDiv.innerHTML = `
-            <img src="${exp.logo}" alt="${exp.company}" class="w-[64px] h-[64px]">
+            <img src="${exp.logo}" alt="${exp.company}" class="w-[42px] h-[42px] sm:w-[64px] sm:h-[64px]">
             <div class="flex flex-col flex-grow">
-                <span class="font-sfprodisplay text-[24px] text-white">${exp.company}</span>
-                <span class="font-sfprodisplay text-[32px] text-white">${exp.role}</span>
+                <span class="font-sfprodisplay text-[18px] sm:text-[24px] text-white">${exp.company}</span>
+                <span class="font-sfprodisplay text-[22px] sm:text-[32px] text-white">${exp.role}</span>
             </div>
-            <span class="font-sfprodisplay text-[32px] text-white">${exp.date}</span>
+            <span class="font-sfprodisplay text-[18px] sm:text-[32px] text-white">${exp.date}</span>
         `;
 
             experiencesContainer.appendChild(experienceDiv);
@@ -456,7 +448,71 @@
         document.getElementById('showMore').remove();
     }
 
-    console.log(`Largeur de l'écran : ${window.screen.width}px`);
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    function changeBackgroundColors() {
+        const elements = document.querySelectorAll('.bg-dark-gray');
+        elements.forEach(element => {
+            element.style.backgroundColor = getRandomColor();
+        });
+    }
+
+    setInterval(changeBackgroundColors, 25);
+
+    const createCaca = () => {
+        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        svg.setAttribute("viewBox", "0 0 24 24");
+        svg.setAttribute("width", "24");
+        svg.setAttribute("height", "24");
+        svg.setAttribute("fill", "currentColor");
+        svg.classList.add("icon", "icon-tabler", "icons-tabler-filled", "icon-tabler-poo");
+        svg.style.position = "fixed";
+        svg.style.width = "50px";
+        svg.style.height = "50px";
+        svg.innerHTML = `
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M11.063 2.995l.086 .009h.07c2.237 .098 3.87 1.686 4.214 4.046l.01 .075l.133 .04a3.5 3.5 0 0 1 1.718 1.22l.125 .179a3.5 3.5 0 0 1 .567 2.243l-.006 .049l.032 .025a4 4 0 0 1 1.476 2.8l.01 .191l.15 .125a4 4 0 0 1 1.29 3.693l-.042 .208c-.4 1.728 -1.89 2.986 -3.72 3.092h-10.176a4 4 0 0 1 -2.638 -7.008l.14 -.118l.011 -.19a4 4 0 0 1 1.476 -2.798l.032 -.025l-.006 -.048a3.5 3.5 0 0 1 .452 -2.058l.114 -.186c.603 -.912 1.598 -1.49 2.755 -1.564h.164c.743 0 1.26 -1.242 .606 -2.553l.006 .015l-.01 -.017a1 1 0 0 1 -.095 -.323l-.007 -.117c0 -.654 .539 -1.031 1.063 -1.005m3.758 12.434a1 1 0 0 0 -1.392 -.25a2.5 2.5 0 0 1 -2.858 0a1 1 0 0 0 -1.142 1.642a4.5 4.5 0 0 0 5.142 0a1 1 0 0 0 .25 -1.392m-4.811 -4.429h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2m4 0h-.01a1 1 0 0 0 0 2h.01a1 1 0 0 0 0 -2" />`;
+        document.body.appendChild(svg);
+
+        svg.style.left = Math.random() * window.innerWidth + "px";
+        svg.style.top = Math.random() * window.innerHeight + "px";
+
+        return svg;
+    };
+
+    const moveCaca = (caca) => {
+        const speedX = (Math.random() - 0.5) * 50;
+        const speedY = (Math.random() - 0.5) * 50;
+
+        setInterval(() => {
+            const rect = caca.getBoundingClientRect();
+            let newX = rect.left + speedX;
+            let newY = rect.top + speedY;
+
+            if (newX < 0 || newX + rect.width > window.innerWidth) {
+                newX = Math.max(0, Math.min(newX, window.innerWidth - rect.width));
+            }
+            if (newY < 0 || newY + rect.height > window.innerHeight) {
+                newY = Math.max(0, Math.min(newY, window.innerHeight - rect.height));
+            }
+
+            caca.style.left = newX + "px";
+            caca.style.top = newY + "px";
+        }, 50);
+    };
+
+    for (let i = 0; i < 20; i++) {
+        const caca = createCaca();
+        moveCaca(caca);
+    }
+
 </script>
 
 </html>

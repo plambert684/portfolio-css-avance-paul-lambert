@@ -169,6 +169,12 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
+  .fixed {
+    position: fixed;
+  }
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -358,6 +364,9 @@
   .pt-\[80px\] {
     padding-top: 80px;
   }
+  .text-center {
+    text-align: center;
+  }
   .font-sfprodisplay {
     font-family: var(--font-sfprodisplay);
   }
@@ -450,6 +459,13 @@
     &:hover {
       @media (hover: hover) {
         cursor: pointer;
+      }
+    }
+  }
+  .hover\:bg-cool-gray {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-cool-gray);
       }
     }
   }
@@ -623,6 +639,11 @@
   .sm\:text-center {
     @media (width >= 40rem) {
       text-align: center;
+    }
+  }
+  .sm\:text-left {
+    @media (width >= 40rem) {
+      text-align: left;
     }
   }
   .sm\:text-\[18px\] {
