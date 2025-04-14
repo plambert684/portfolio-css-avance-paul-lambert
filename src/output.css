@@ -319,6 +319,9 @@
   .bg-dark-gray {
     background-color: var(--color-dark-gray);
   }
+  .p-\[3rem\] {
+    padding: 3rem;
+  }
   .p-\[20px\] {
     padding: 20px;
   }
@@ -327,6 +330,9 @@
   }
   .p-\[120px\] {
     padding: 120px;
+  }
+  .px-\[7\.5rem\] {
+    padding-inline: 7.5rem;
   }
   .px-\[10px\] {
     padding-inline: 10px;
@@ -342,6 +348,9 @@
   }
   .px-\[120px\] {
     padding-inline: 120px;
+  }
+  .py-\[3rem\] {
+    padding-block: 3rem;
   }
   .py-\[7px\] {
     padding-block: 7px;
@@ -614,9 +623,19 @@
       gap: 50px;
     }
   }
+  .sm\:p-\[7\.5rem\] {
+    @media (width >= 40rem) {
+      padding: 7.5rem;
+    }
+  }
   .sm\:p-\[120px\] {
     @media (width >= 40rem) {
       padding: 120px;
+    }
+  }
+  .sm\:px-\[7\.5rem\] {
+    @media (width >= 40rem) {
+      padding-inline: 7.5rem;
     }
   }
   .sm\:px-\[10px\] {
@@ -637,6 +656,11 @@
   .sm\:px-\[120px\] {
     @media (width >= 40rem) {
       padding-inline: 120px;
+    }
+  }
+  .sm\:py-\[5rem\] {
+    @media (width >= 40rem) {
+      padding-block: 5rem;
     }
   }
   .sm\:py-\[10px\] {
@@ -715,9 +739,19 @@
       line-height: 80px;
     }
   }
+  .\32 xl\:px-\[16rem\] {
+    @media (width >= 96rem) {
+      padding-inline: 16rem;
+    }
+  }
   .\32 xl\:px-\[250px\] {
     @media (width >= 96rem) {
       padding-inline: 250px;
+    }
+  }
+  .\32 xl\:py-\[7rem\] {
+    @media (width >= 96rem) {
+      padding-block: 7rem;
     }
   }
   .\32 xl\:py-\[100px\] {
