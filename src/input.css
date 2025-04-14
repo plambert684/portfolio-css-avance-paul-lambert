@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-gray: #1D1D1D;
+    --color-cool-gray: #282828;
+    --color-light-gray: #4D4D4D;
+
+    --font-sfprodisplay: "SF Pro Display", sans-serif;
+}
